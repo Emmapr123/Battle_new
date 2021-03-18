@@ -1,4 +1,2 @@
-require './app'
-require_relative './player'
-
+require './app.rb'
 run Battle

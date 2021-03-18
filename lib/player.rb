@@ -8,10 +8,6 @@ class Player
     @hp = hp
   end
 
-  def name
-    @name
-  end
-
   def attack(player)
     player.receive_damage
   end
