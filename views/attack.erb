@@ -1,5 +1,7 @@
-<p> <%= $game.player1.name  %> attacked <%= $game.player2.name  %></p>
+<p> <%= $game.current_player.name  %> attacked <%= $game.previous_player.name %></p>
 
-<p><%= $game.player2.name %>: <%= $game.player2.hp %>HP</p>
+<p><%= $game.previous_player.name %>: <%= $game.previous_player.hp %>HP</p>
 
-<p><%= $game.player2.name%>'s turn</p>
+<% $game.switch_turn %>
+
+<p> <%= $game.current_player.name %>'s turn</p>
